@@ -1,1 +1,36 @@
-hhhhhhhhhhhhhhhhhhhhhh
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <title></title>
+  </head>
+  <body>
+    <!--
+    Begin Losant Embed
+    Drop this in your markup where you would like the widget to go.
+       -->
+    <a class="los-widget"
+       href="https://app.losant.com/dashboards/5a40287239972200072848b4?embed=IWlhMuSKq6"
+       data-dashboard-id="5a40287239972200072848b4"
+       data-block-id="IWlhMuSKq6"
+       data-theme="light"
+       data-height="332px"
+       data-width="100%">
+      View my Losant-powered widget "DHT22"
+    </a>
+    <script>window.lsnt = (function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0], t = window.lsnt || {};
+      if (d.getElementById(id)) return t;
+      js = d.createElement(s); js.id = id;
+      js.src = "https://app.losant.com/scripts/widgets.js";
+      fjs.parentNode.insertBefore(js, fjs); t._e = [];
+      t.ready = function(f) { t._e.push(f); }; return t;
+     }(document, "script", "lsnt-widgets"));</script>
+    <!-- End Losant Embed -->
+  </body>
+</html>
+
